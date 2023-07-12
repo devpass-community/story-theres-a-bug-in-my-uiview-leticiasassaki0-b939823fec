@@ -1,12 +1,5 @@
 // Arquivo LoadingView.swift
 
-private lazy var activityIndicatorView: UIActivityIndicatorView = {
-      
-        let view = UIActivityIndicatorView(style: .large)
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.startAnimating()
-        return view
-    }()
 
 
 // Arquivo LoadingView.swift
