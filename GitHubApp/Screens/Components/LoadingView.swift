@@ -1,3 +1,16 @@
+// Arquivo LoadingView.swift
+
+private lazy var activityIndicatorView: UIActivityIndicatorView = {
+      
+        let view = UIActivityIndicatorView(style: .large)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.startAnimating()
+        return view
+    }()
+
+
+// Arquivo LoadingView.swift
+
 import UIKit
 
 final class LoadingView: UIView {
@@ -7,7 +20,7 @@ final class LoadingView: UIView {
         let view = UIStackView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.axis = .vertical
-        view.spacing = 166
+        view.spacing = 16
         return view
     }()
     
